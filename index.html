@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website</title>
+
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, it's me</h3>
+            <h1>Michelle Omboyo</h1>
+            <h3>And I'm a <span class="multiple-text"></span>Web Developer</h3>
+            <p>WELCOME! I believe I can provide solutions to any kind of task relating to Web design that you may be
+                dealing with.
+                Check out our services for more details. </p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <!----<a arial-label="Open Michelle's resume in a new tab" href="#resume" target="-blank"
+                class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open 
+                small"></i><span>Resume</span></a> -->
+            <a aria-label="'Open Michelle's resume in a new 
+                tab " href="resume/Curriculum vitae.docx" target="_blank" class="btn"><i 
+                class=Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/mimi.jpg" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.jpg" alt="" srcset="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I'm a certified Frontend Developer. I undertook my Undergraduates
+                Degree in BSC Telecommunication & Information Technology at
+                Pwani University and then my second Undergraduates Degree in BSC computer
+                Science at Kenyatta University. I furthered my studies abroad
+                in Germany to specialize in Web design and Cyber-security at Arden University.
+    
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Give your Cards, Bronchures, Walpapers, Themes, Packages a cool look.
+                    We have a variety of Graphic designs which will blow your mind! All colours available.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Create your own trading site with our help.
+                    From Forex, to trading Bitcoins.We'll help you develop your own Digital Marketing page.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Learn how create your own Website, Get your website developed for you.
+                    We train you to evolve from a layman's level to become a proffessional web developer.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio 1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Interconnecting the world through Web design.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio 2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Troubleshooting.</h4>
+                    <p>Troubleshooting various devices such as Laptops, Function generaators, Oscilloscope & many more
+                        electronic devices.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio 3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Network Towers and Boosters.</h4>
+                    <p>
+                        Connecting the world through 5G and better Network boosters.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/portfolio 4.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Indulge Michelle Omboyo; myself, for attractive and dynamic website design and development!!</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form method ="post" role="form">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email"name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number"name="number" placeholder="Mobile Number">
+                <input type="text" name="text" placeholder="Email Subject">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Omboyo.ke | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+
+    </body>
+
+</html>
+    <?php
+    try{
+        $db = new mysqli("localhost", "root", "", "contact");
+    }catch (Excepton $exc) {
+        echo $exc->getTraceAsString();
+    }
+    if(isset($_POST ['name']) && isset($_POST ['email']) && isset($_POST['phone']) && isset($_POST ['message'])
+     && isset($_POST ['text'])){
+    $name = $_POST[ 'name'];
+    $email = $_POST[ 'email'];
+    $phone = $_POST[ 'phone'];
+    $message = $_POST[ 'message'];
+    $text = $_POST[ 'text'];
+
+    $is_insert = $db->query("INSERT INTO `contact_us`(`name`,`email`,`phone`,`message`,`text`) VALUES 
+    ('$name', '$email', '$phone', '$message', '$text')");
+
+    if($is_insert == true){
+        echo "<h2> thanks, response submitted successifully!  .</h2> ";
+        exit();
+    }
+}
